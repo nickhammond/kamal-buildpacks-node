@@ -6,8 +6,6 @@ servers:
   web:
     hosts:
       - 64.227.108.46
-    options:
-      publish: 5100
 
 registry:
   username: nickhammond
@@ -20,5 +18,5 @@ builder:
   pack:
     builder: "heroku/builder:24"
     buildpacks:
-      - heroku/php
+      - heroku/nodejs
       - heroku/procfile
