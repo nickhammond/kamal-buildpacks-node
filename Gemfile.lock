@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/nickhammond/kamal.git
-  revision: e252004eef8697fecdaecf661fe47e659c2e7c0f
+  revision: 5482052e1911c5a84ed843cbd9904d149b3b7cf5
   branch: buildpacks
   specs:
-    kamal (2.0.0.rc2)
+    kamal (2.1.0)
       activesupport (>= 7.0)
       base64 (~> 0.2)
       bcrypt_pbkdf (~> 1.0)
@@ -47,7 +47,7 @@ GEM
       net-ssh (>= 2.6.5, < 8.0.0)
     net-sftp (4.0.0)
       net-ssh (>= 5.0.0, < 8.0.0)
-    net-ssh (7.2.3)
+    net-ssh (7.3.0)
     ostruct (0.6.0)
     securerandom (0.3.1)
     sshkit (1.23.1)
